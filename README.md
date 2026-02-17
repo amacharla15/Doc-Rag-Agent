@@ -1,3 +1,18 @@
+# Doc RAG Agent
+
+## Results (latest eval)
+
+- **Overall pass rate:** **0.693** (52/75)
+- **Doc Q&A pass rate:** **0.646** (42/65)
+- **Should-abstain pass rate:** **1.000** (10/10)
+- **Citation coverage (when answered):** **1.000** (65/65)
+- **Abstain rate:** **0.133** (10/75)
+- **Latency:** avg **7.387s**, p95 **30.230s**
+
+**Full report:** `eval/report_v4.md`  
+**Latest run log:** `eval/runs/v4.jsonl`
+-------------------------------------------------------------------------------------------------------------------------
+
 # Cited Notes Q&A (RAG with Citations + Abstain)
 
 A RAG app: upload/keep a small set of PDFs/notes locally, ask questions, and get answers that **must include citations** to retrieved chunks — otherwise the system **abstains**.
