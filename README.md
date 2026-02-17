@@ -14,21 +14,18 @@
 
 Local run Streamlit Demo: https://drive.google.com/file/d/1o09DW9fcFNbnMbcIqi_cRAVcaMA0ZuG-/view?usp=sharing
 
-Pipeline:
-
-<img width="902" height="566" alt="image" src="https://github.com/user-attachments/assets/442f7a3f-77ba-4dbd-83ea-53e741350ac7" />
 
 -------------------------------------------------------------------------------------------------------------------------
 
 # Cited Notes Q&A (RAG with Citations + Abstain)
 
-A RAG app: upload/keep a small set of PDFs/notes locally, ask questions, and get answers that **must include citations** to retrieved chunks — otherwise the system **abstains**.
+A Custom RAG app implemented from scratch: upload/keep a small set of PDFs/notes locally, ask questions, and get answers that **must include citations** to retrieved chunks — otherwise the system **abstains**.
 
 ## What it demonstrates
 - Reliable retrieval (chunking + embeddings + vector search)
 - Citation-gated answers (no citations → abstain)
-- Simple API service (FastAPI)
-- Simple UI (Streamlit)
+- API service (FastAPI)
+- UI (Streamlit)
 - Measurable evaluation (75-task JSONL + report)
 
 ## Tech stack (resume keywords)
