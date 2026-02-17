@@ -1,8 +1,23 @@
-.venv/
+cat > .gitignore << 'EOF'
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# venv
+.venv/
+venv/
+
+# OS/editor
 .DS_Store
-.env
-.qdrant/
+.vscode/
+
+# Generated data/artifacts
+data/chunks/
 data/index/
-data/embeddings/
+eval/runs/
+
+# Logs
+*.log
+EOF
