@@ -13,6 +13,11 @@
 **Latest run log:** `eval/runs/v4.jsonl`
 
 Local run Streamlit Demo: https://drive.google.com/file/d/1o09DW9fcFNbnMbcIqi_cRAVcaMA0ZuG-/view?usp=sharing
+
+Pipeline:
+
+<img width="902" height="566" alt="image" src="https://github.com/user-attachments/assets/442f7a3f-77ba-4dbd-83ea-53e741350ac7" />
+
 -------------------------------------------------------------------------------------------------------------------------
 
 # Cited Notes Q&A (RAG with Citations + Abstain)
