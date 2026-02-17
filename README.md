@@ -11,6 +11,8 @@
 
 **Full report:** `eval/report_v4.md`  
 **Latest run log:** `eval/runs/v4.jsonl`
+
+Local run Streamlit Demo: https://drive.google.com/file/d/1o09DW9fcFNbnMbcIqi_cRAVcaMA0ZuG-/view?usp=sharing
 -------------------------------------------------------------------------------------------------------------------------
 
 # Cited Notes Q&A (RAG with Citations + Abstain)
